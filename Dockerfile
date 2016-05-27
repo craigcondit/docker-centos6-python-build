@@ -5,5 +5,5 @@ RUN \
 	yum clean metadata && \
 	yum -y install epel-release-6-8 && \
 	yum clean metadata && \
-	yum -y install which tar rpm-build yum-utils python-argparse python-yaml && \
+	yum -y install which tar rpm-build yum-utils python-argparse python-yaml gcc && \
 	yum clean all
